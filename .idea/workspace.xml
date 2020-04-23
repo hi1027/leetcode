@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3409eeea-e719-4e71-b9d8-a6188b93d7e0" name="Default" comment="" />
+    <list default="true" id="3409eeea-e719-4e71-b9d8-a6188b93d7e0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/A104_二叉树的最大深度.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/A141_环形链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/A151_翻转字符串里面的单词.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/A160_相交链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/A206_反正链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/A21_合并两个有序链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/A234_回文链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/A328_奇偶链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/A445_两数相加$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/A445_两数相加.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/A83_删除排序链表中的重复元素.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorts.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,18 +38,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="A234_回文链表.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/A234_回文链表.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="57" column="20" selection-start-line="40" selection-start-column="8" selection-end-line="57" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="A328_奇偶链表.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/A328_奇偶链表.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -89,14 +95,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="A.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/A.java">
+      <file leaf-file-name="Sorts.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sorts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="219">
+              <caret line="49" column="55" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -141,13 +156,17 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>pairs</find>
+      <find>n</find>
     </findStrings>
     <replaceStrings>
       <replace>result</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/A.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Sorts.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -165,6 +184,8 @@
         <option value="$PROJECT_DIR$/src/A234_回文链表.java" />
         <option value="$PROJECT_DIR$/src/A328_奇偶链表.java" />
         <option value="$PROJECT_DIR$/src/A.java" />
+        <option value="$PROJECT_DIR$/src/Sorts.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -192,9 +213,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1024" />
     <option name="y" value="22" />
-    <option name="width" value="2048" />
+    <option name="width" value="1024" />
     <option name="height" value="1085" />
   </component>
   <component name="ProjectView">
@@ -202,6 +224,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,19 +239,10 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="A104_二叉树的最大深度.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -251,12 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.A">
-    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A" />
-      <module name="leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
+  <component name="RunManager" selected="Application.Sorts">
     <configuration name="A160_相交链表" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A160_相交链表" />
       <module name="leetcode" />
@@ -274,6 +285,11 @@
     </configuration>
     <configuration name="A83_删除排序链表中的重复元素" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A83_删除排序链表中的重复元素" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Sorts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorts" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -321,13 +337,13 @@
     <list>
       <item itemvalue="Application.A83_删除排序链表中的重复元素" />
       <item itemvalue="Application.A160_相交链表" />
-      <item itemvalue="Application.A" />
+      <item itemvalue="Application.Sorts" />
       <item itemvalue="Application.A234_回文链表" />
       <item itemvalue="Application.A328_奇偶链表" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.A" />
+        <item itemvalue="Application.Sorts" />
         <item itemvalue="Application.A328_奇偶链表" />
         <item itemvalue="Application.A234_回文链表" />
         <item itemvalue="Application.A160_相交链表" />
@@ -350,14 +366,17 @@
       <workItem from="1586971074410" duration="1788000" />
       <workItem from="1587194400083" duration="44691000" />
       <workItem from="1587527587464" duration="7448000" />
+      <workItem from="1587649597114" duration="6510000" />
+      <workItem from="1587656887558" duration="3443000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63845000" />
+    <option name="totallyTimeSpent" value="73798000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="2048" height="1085" extended-state="0" />
+    <frame x="0" y="22" width="2048" height="1085" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
@@ -371,17 +390,17 @@
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.25151515" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33737373" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32929292" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32929292" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25353536" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32929292" />
       <window_info anchor="right" id="leetcode" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19192423" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19391824" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="7" />
       <window_info anchor="bottom" id="JProfiler" order="7" />
@@ -461,19 +480,37 @@
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A.java</url>
-          <line>78</line>
+          <url>file://$PROJECT_DIR$/src/Sorts.java</url>
+          <line>131</line>
           <properties />
           <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A.java</url>
-          <line>73</line>
+          <url>file://$PROJECT_DIR$/src/Sorts.java</url>
+          <line>126</line>
           <properties />
           <option name="timeStamp" value="68" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorts.java</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorts.java</url>
+          <line>91</line>
+          <properties />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorts.java</url>
+          <line>104</line>
+          <properties />
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="73" />
+      <option name="time" value="80" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -496,6 +533,57 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/A160_相交链表.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="82" column="23" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57360">
+          <caret line="3824" selection-start-line="3804" selection-start-column="7" selection-end-line="3824" />
+          <folding>
+            <element signature="e#5027#5028#0" expanded="true" />
+            <element signature="e#5098#5099#0" expanded="true" />
+            <element signature="e#177013#177014#0" expanded="true" />
+            <element signature="e#177054#177055#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3060">
+          <caret line="229" column="67" selection-start-line="226" selection-start-column="16" selection-end-line="229" selection-end-column="67" />
+          <folding>
+            <element signature="e#10065#10066#0" expanded="true" />
+            <element signature="e#10148#10149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sorts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/A234_回文链表.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
@@ -575,7 +663,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/A.java">
+    <entry file="file://$PROJECT_DIR$/src/Sorts.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="45" column="36" lean-forward="true" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
@@ -596,9 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1710">
           <caret line="117" column="21" selection-start-line="117" selection-start-column="21" selection-end-line="117" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -641,10 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82860">
           <caret line="5524" column="25" lean-forward="true" selection-start-line="5524" selection-start-column="25" selection-end-line="5524" selection-end-column="25" />
-          <folding>
-            <element signature="e#7284#7285#0" expanded="true" />
-            <element signature="e#7312#7313#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -673,9 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1710">
           <caret line="117" column="21" lean-forward="true" selection-start-line="117" selection-start-column="21" selection-end-line="117" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -739,9 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -749,10 +824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="173" column="27" selection-start-line="173" selection-start-column="27" selection-end-line="173" selection-end-column="27" />
-          <folding>
-            <element signature="e#7284#7285#0" expanded="true" />
-            <element signature="e#7312#7313#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -777,9 +848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="47" column="32" lean-forward="true" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -862,13 +930,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/A.java">
+    <entry file="file://$PROJECT_DIR$/src/Sorts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="219">
+          <caret line="49" column="55" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
         </state>
       </provider>
     </entry>

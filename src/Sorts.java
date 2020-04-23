@@ -7,26 +7,135 @@ import java.util.TooManyListenersException;
  * @author: zhangsen
  * @date: 2020/4/20 下午10:38
  * @version: 1.0
- * @description:        时间复杂度                   空间复杂度           是否稳定(比如一个序列是 3  4  3  2 ) 一个稳定排序后，前面的3 应该继续保持在后面的3前面
- *                  最好    最坏   平均
+ * @description: 时间复杂度                   空间复杂度           是否稳定(比如一个序列是 3  4  3  2 ) 一个稳定排序后，前面的3 应该继续保持在后面的3前面
+ * 最好    最坏   平均
  * 冒泡排序          O(n)   O(n²)  O(n²)             O(1)                是，因为会逐个比较
  * 选择排序         O(n²)  O(n²)  O(n²)              O(1)                不是，因为选择排序是每次从后面取一个最值，比如上面的例子，就会先从后面取到3的时候，跟前面的3调序
- *
  * 插入排序         O(n)   O(n²)  O(n²)              O(1)                是，插入排序会跟要插入的数字比较
  * 参考资料   https://www.bigocheatsheet.com/
  */
-public class A {
+public class Sorts {
     public static void main(String[] args) {
         int[] arr = {1, 2, 34, 5, 23, 5, 23, 123, 32, 354, 5657, 57, 6, 34524, 35, 7, 6745, 6, 45};
 
 
 //        bubbleSort(arr);
 //        selectionSort(arr);
-        insertSort(arr);
+//        insertSort(arr);
+//        mergeSort(arr);
+        quickSort(arr);
         System.out.println(Arrays.toString(arr));
 
 
     }
+
+    /**
+     *  快速排序  也是分治思想，找到一个基准节点，基于这个几点分成左右2部分，分别排序，
+     *  相比于 归并排序   的好处是空间复杂度是o1，因为他原地排序
+     * @param arr
+     */
+    private static void quickSort(int[] arr) {
+        if (arr == null || arr.length <= 1) {
+            return;
+        }
+
+        quickSortInner(arr,0,arr.length-1);
+    }
+
+    private static void quickSortInner(int[] arr, int left, int right) {
+        if(left >= right){
+            return ;
+        }
+
+        int partitionIndex = partition(arr,left,right);
+        quickSortInner(arr,left,partitionIndex-1);
+        quickSortInner(arr,partitionIndex+1,right);
+    }
+
+    private static int partition(int[] arr, int left, int right) {
+        int pivot = left;
+        int index = pivot + 1;
+        for (int i = index; i <= right; i++) {
+            if (arr[i] < arr[pivot]) {
+                if(i!=index){
+                    swap(arr, i, index);
+                }
+                //交换了 才增加，这就是哨兵节点
+                index++;
+            }
+        }
+        swap(arr, pivot, index - 1);
+        return index - 1;
+    }
+    private static void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+    /**
+     * 归并排序
+     * 就是把一个数组分成2分，每次排序分成2组，分别进行排序，并合并，最后在最终拼成一组
+     * 利用递归  不断分层   logN
+     *
+     * @param arr
+     */
+    private static void mergeSort(int[] arr) {
+        if (arr == null || arr.length <= 1) {
+            return;
+        }
+        int length = arr.length;
+        sort(arr, 0, length - 1);
+    }
+
+
+    private static void sort(int[] arr, int left, int right) {
+        if (left >= right) {
+            return;
+        }
+        //left + right 数值溢出
+        int mid = left + (right - left) / 2;
+        sort(arr, left, mid);
+        sort(arr, mid + 1, right);
+
+        merge(arr, left, mid, right);
+    }
+
+    private static void merge(int[] arr, int left, int mid, int right) {
+        // i  j 检测遍历指针  k 存放指针
+        int i = left;
+        int j = mid + 1;
+        int k = 0;
+        //申请一个临时新数组
+        int[] temp = new int[right - left + 1];
+
+        while (i <= mid && j <= right) {
+            if (arr[i] < arr[j]) {
+                temp[k] = arr[i];
+                i++;
+            } else {
+                temp[k] = arr[j];
+                j++;
+            }
+            k++;
+        }
+
+        if (i <= mid) {
+            temp[k] = arr[i];
+            k++;
+            i++;
+        }
+
+        if (j <= right) {
+            temp[k] = arr[j];
+            k++;
+            j++;
+        }
+
+        for (int n = 0; n <= right-left; n++) {
+            arr[left+n] = temp[n];
+        }
+    }
+
 
     /**
      * 插入排序
@@ -37,6 +146,9 @@ public class A {
      * @param arr
      */
     private static void insertSort(int[] arr) {
+        if (arr == null || arr.length <= 1) {
+            return;
+        }
         int length = arr.length;
         for (int i = 1; i < length; i++) {
             //记录这个值后，那么这个下标  这个坑就可以用来后面移动的数
@@ -68,6 +180,9 @@ public class A {
      * @param arr
      */
     private static void selectionSort(int[] arr) {
+        if (arr == null || arr.length <= 1) {
+            return;
+        }
         int length = arr.length;
         for (int i = 0; i < length - 1; i++) {
             int tempIndex = i;
@@ -91,6 +206,9 @@ public class A {
      * @param arr
      */
     private static void bubbleSort(int[] arr) {
+        if (arr == null || arr.length <= 1) {
+            return;
+        }
         int length = arr.length;
         //是否有数据交换
         boolean flag = false;
