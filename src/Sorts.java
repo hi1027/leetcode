@@ -19,11 +19,12 @@ public class Sorts {
         int[] arr = {1, 2, 34, 5, 23, 5, 23, 123, 32, 354, 5657, 57, 6, 34524, 35, 7, 6745, 6, 45};
 
 
+
 //        bubbleSort(arr);
 //        selectionSort(arr);
 //        insertSort(arr);
-//        mergeSort(arr);
-        quickSort(arr);
+        mergeSort(arr);
+//        quickSort(arr);
         System.out.println(Arrays.toString(arr));
 
 
@@ -130,7 +131,7 @@ public class Sorts {
             k++;
             j++;
         }
-
+        //把临时数组的数据 copy到原数组，临时数组0-n,原数组 left-right
         for (int n = 0; n <= right-left; n++) {
             arr[left+n] = temp[n];
         }
